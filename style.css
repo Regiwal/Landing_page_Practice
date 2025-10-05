@@ -1,0 +1,103 @@
+body{
+     background-color: rgb(225, 224, 224);
+}
+
+header {
+    background-color: #4CAF50;
+        padding: 20px 0px;
+        background: #4CAF50;
+        display: flex;
+        justify-content: space-around;
+        color: white;
+        padding-top: 3%;
+        /* border: 2px solid yellow; */
+}
+/* .logo{
+    border: 2px solid red;
+} */
+/* Navbar */
+nav{
+        display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding-top: 10px;
+            padding-left: 10px;
+           /* margin: 10px, 0px , 0px , 0px; */
+           font-size: 16px;
+            /* width: 100px; */
+            /* border: 2px solid black; */
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+ 
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+
+.bg-img{
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./ad_cover.png) no-repeat center / cover;
+    /* background-image:url(./red_bg.jpg) ; */
+        color: white;
+}
+
+button{
+background: #ff9800;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+.bg-img>p{
+        font-size: 1.2rem;
+            margin-bottom: 30px;
+}
+
+
+/* about */
+
+.about{
+    text-align: center;
+}
+
+.three_container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+   
+}
+
+.web_design, .development , .SEO{
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+}
+
+h3{
+    color:#4CAF50;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: #4CAF50;
+    display: flex;
+    justify-content:space-between;
+    padding: 20px;
+    color: white;
+}
